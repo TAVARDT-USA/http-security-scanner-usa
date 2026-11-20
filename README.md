@@ -1,11 +1,11 @@
 # HTTP Security Headers Scanner | TAVARDT USA
 
-[![Auditoria de Segurança](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/security-headers-check/)
-[![Conformidade](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-United States-00C853.svg)](https://ag.tavardt.com/cybersecurity/)
+[![Scope of Perimeter Verification](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/security-headers-check/)
+[![Jurisdiction](https://img.shields.io/badge/Jurisdiction-United States-00C853.svg)](https://ag.tavardt.com/cybersecurity/)
 
 Automated technical audit of HTTP security headers aligned with CIS Benchmark Level 1 and NIST Cybersecurity Framework 2.0 standards in the United States.
 
-Desenvolvido e mantido pela divisão de cibersegurança e proteção de infraestruturas da **[TAVARDT USA](https://ag.tavardt.com/)**.
+Developed and maintained by the cybersecurity and infrastructure defense division of **[TAVARDT USA](https://ag.tavardt.com/)**.
 
 ---
 
@@ -13,28 +13,28 @@ Desenvolvido e mantido pela divisão de cibersegurança e proteção de infraest
 
 This command-line utility audits critical browser protection directives and secure transport configurations:
 
-* **Strict-Transport-Security (HSTS):** Força comunicações encriptadas via HTTPS e impede ataques de downgrade e interceptação SSL.
-* **Content-Security-Policy (CSP):** Mitiga ataques de injeção de scripts (XSS) e restringe as origens autorizadas para carregamento de recursos.
-* **X-Frame-Options:** Previne ataques de clickjacking regulando as permissões de incorporação em frames e iframes.
-* **X-Content-Type-Options:** Impede a execução indevida de ficheiros derivados de vulnerabilidades de MIME-sniffing.
-* **Referrer-Policy:** Protege dados sensíveis contidos em URLs de referência contra fuga para domínios terceiros.
-* **Permissions-Policy:** Aplica o princípio do menor privilégio sobre APIs de hardware do navegador (câmara, microfone e geolocalização).
+* **Strict-Transport-Security (HSTS):** Enforces encrypted HTTPS connections and mitigates downgrade attacks.
+* **Content-Security-Policy (CSP):** Restricts resource loading to eliminate cross-site scripting (XSS) vulnerabilities.
+* **X-Frame-Options:** Prevents clickjacking framing attacks on critical web assets.
+* **X-Content-Type-Options:** Blocks MIME-sniffing vulnerabilities across modern browsers.
+* **Referrer-Policy:** Restricts sensitive URL parameters from leaking to third-party endpoints.
+* **Permissions-Policy:** Enforces least-privilege access for browser hardware capabilities.
 
 ---
 
 ## 2. Quick Start Guide
 
-Execute a ferramenta diretamente via Python sem necessidade de instalar dependências externas:
+Run this tool directly via Python without installing third-party packages:
 
 ```bash
-python scanner.py exemplo.com
+python scanner.py example.com
 ```
 
 ---
 
 ## 3. Online Diagnostic Tools (United States)
 
-Audite a infraestrutura pública das suas aplicações utilizando a suíte de diagnósticos da TAVARDT:
+Audit the security posture of your public infrastructure with the official TAVARDT testing suite:
 
 * [HTTP Security Headers Checker](https://tools.tavardt.com/security-headers-check/)
 * [Consent Mode v2 & Privacy Validator](https://tools.tavardt.com/consent-mode-v2-checker/)
