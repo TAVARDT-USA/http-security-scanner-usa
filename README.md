@@ -3,7 +3,7 @@
 [![Scope of Perimeter Verification](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/security-headers-check/)
 Automated technical audit of HTTP security headers aligned with CIS Benchmark Level 1 and NIST Cybersecurity Framework 2.0 standards in the United States.
 
-Developed and maintained by the cybersecurity and infrastructure defense division of **TAVARDT USA**.
+Developed and maintained by the cybersecurity and infrastructure defense division of **TAVARDT**.
 
 ***
 
@@ -44,7 +44,7 @@ Audit the security posture of your public infrastructure with the official TAVAR
 
 ## 4. Technical Advisory & Remediation
 
-For enterprise cybersecurity consulting, incident response, and zero-trust infrastructure hardening in the United States, contact **TAVARDT USA**.
+For enterprise cybersecurity consulting, incident response, and zero-trust infrastructure hardening in the United States, contact **TAVARDT**.
 
 ***
 
