@@ -1,12 +1,10 @@
 # HTTP Security Headers Scanner
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Scope of Perimeter Verification](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/security-headers-check/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Automated technical audit of HTTP security headers aligned with CIS Benchmark Level 1 and NIST Cybersecurity Framework 2.0 standards in the United States.
-
-Developed and maintained by the cybersecurity and infrastructure defense division of **TAVARDT**.
 
 ***
 
@@ -37,7 +35,6 @@ python scanner.py example.com
 
 Audit the security posture of your public infrastructure with the official TAVARDT testing suite:
 
-* HTTP Security Headers Checker
 * [Consent Mode v2 & Privacy Validator](https://tools.tavardt.com/consent-mode-v2-checker/)
 * [DMARC & Anti-Spoofing Verifier](https://tools.tavardt.com/dmarc-checker/)
 * [Exposed Credentials & Secret Scanner](https://tools.tavardt.com/exposed-files-scanner/)
@@ -60,7 +57,7 @@ For enterprise cybersecurity consulting, incident response, and zero-trust infra
 ***
 
 ### License
-Released under the MIT License. See [LICENSE](LICENSE) for full details.
+Released under the MIT License.
 
 ***
 
